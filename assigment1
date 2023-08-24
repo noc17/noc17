@@ -1,7 +1,7 @@
 mkdir -p test2
 cd test2
 for i in {1..15}; do
-    echo "hello_there_king" > "$i.txt"
+    echo "just trying" > "$i.txt"
 done
 for i in {1..15}; do
     tr 'abcdefghijklmnopqrstuvwxyz_' 'zyxwvutsrqponmlkjihgfedcga*' < "$i.txt" > "$i.txt.temp"
